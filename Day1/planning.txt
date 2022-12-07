@@ -1,0 +1,6 @@
+Installation de la stack technologique
+
+1. Installer VSCODE (https://code.visualstudio.com/)
+2. Installer Git (https://git-scm.com/downloads)
+3. Installer python (https://www.python.org/downloads/)
+4. Créer un compte sur GITHUB (https://github.com/signup)
