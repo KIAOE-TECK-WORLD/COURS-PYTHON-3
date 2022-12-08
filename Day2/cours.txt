@@ -1,0 +1,25 @@
+Il existe deux type de langages
+	- GUIDO VAN ROSSUM
+	- Ceux qui se disent compilés
+		- Utilisent des compilateurs
+		- Compilation + Exécution
+		- Le control des erreurs est faite au niveau de la compilation
+		- Ces langages sont plus controlés
+		- Sont plus performant
+		- Cela impose un compilateur (LOURD)
+		- la plupart ils sont typé
+			- ENTIER, REEL, BOOLEEN, CHAINE DE CARACTERE...
+	- Ceux qui se disent interprètés
+		- Pas de compilateur
+		- Exécution
+		- Au cours de l'exécution que le control des erreurs se fait
+		- Rapidité et de la performance c'est relatif
+		- C'est un langage non typé
+			- ENTIER, REEL, BOOLEEN, CHAINE DE CARACTERE...
+		- C'est un langage tès simple
+		- Simplicité c'est le premier développeur
+		- Héritage, Surcharge, Class, function (OOP)
+			- Super simple
+		- Utilisé dans le domaine de la datascience
+			- Python, R, C++
+		- Extension du fichier python .py

@@ -4,3 +4,54 @@ Installation de la stack technologique
 2. Installer Git (https://git-scm.com/downloads)
 3. Installer python (https://www.python.org/downloads/)
 4. Créer un compte sur GITHUB (https://github.com/signup)
+
+
+Utilisation de GitHub ( Versioning )
+	Versionner: Déplacer un projet du local vers un dépot à distance
+	Le dépot a distance on y a accès grâce à GITHUB
+	Github nous permet de manière graphique via le web de Gérer nos projets
+	Il faudra utiliser GIT ( language qui permet via des commandes bash de déplacer le projet vers GITHUB)
+	Pour versionner les clients git ( VCS ) on a:
+	- GITHUB (1): VCS distribué
+	- GITLAB (2): VCS distribué
+	- SVN (3): VCS centralisé
+	Ces outils la fonctionne sur une architecture CLIENT -> SERVER / SERVER -> CLIENT
+	Comme tout langage il y a syntaxe.
+	Mais juste que ici ce sont des commandes. Mais il existe des logiciels bureau qui permettent de manière graphique de versionner le projet via GIT
+	- LOCAL -> ( GIT Langage ) -> GITHUB
+	- Le flux CLIENT -> SERVER ( Publication (PUSH) )
+	- Le Flux SERVER -> CLIENT ( PULL )
+		- CLIENT ( Machine Locale/ Ordinateur)
+		- GIT ( Language/Outils )
+		- SERVER ( GITHUB )
+		- NB: Dans l'abus de langage on dit LOCAL VERS REMOTE
+		- NB: Faire passer le code de notre ordinateur LOCAL vers le SERVER
+		- NB: Pour faire cette opération ( PUSH/PULL ) on utilise les commandes GIT
+
+	- Cas du versioning de notre projet
+	- Créer une clé SSH via SSH-KEYGEN (1)
+		- SSH-KEYGEN c'est un programme qui permet de généré uné clé ASYMETRIQUE ( RSA 2048/4096 )
+		- ASYMETRIQUE ( 2 Portions ( Clé Privée + Clé Publmique ))
+		- NB: Cette opération de Clé RSA est différente dee ce qu'on appelle un HASHE
+		- NB: Avec SSH-KEYGEN on fait su cryptage et non du HASHAGE
+	- Renseigner cette clé ( PUBLIQUE ) sur GITHUB
+		- On gardera la clé PRIVE en LOCAL ( Car une clé privée est toujours secrete )
+		- La clé privé permet de signer ( d'encrypter et elle est propre à un utilisateur )
+		- La clé qui peut être rendue publique est la clé PUBLIQUE
+	- Créer un dépo (repository)
+	- On a juste renseigner sur nos terminaux les commandes git se trouvant sur GITHUB
+
+	- Les commandes GIT ( Première fois )
+		- git init ( Initialiser )
+		- git add -A ( ajouter tout le contenu du repertoir courant )
+		- git config --global user.email "<EMAIL>"
+		- git config --global user.name "<NAME>"
+		- git commit -m "<DESCRIPTION>" ( permet de sauvegarder notre travail dans un WD: Working Directory)
+		- git branch -M <NOM_BRANCHE> ( C'est pour nommer ou renommer le nom d'une branche en LOCAL )
+		- git remote add origin <URL> (HTTPS/SSH)
+		- git push -u origin master ( PUSH )
+
+	- Les commandes GIT ( >1 fois )
+		- git add -A ( ajouter tout le contenu du repertoir courant )
+		- git commit -m "<DESCRIPTION>" ( permet de sauvegarder notre travail dans un WD: Working Directory)
+		- git push -u origin master ( PUSH )
