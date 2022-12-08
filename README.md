@@ -14,7 +14,6 @@ ___
 * Ecrire la documentation en [README](https://www.markdownguide.org/basic-syntax)
 * Générer une clé ssh avec ssh-keygen
 
-
 # Versionner son projet sur Github
 ___
 
@@ -28,7 +27,6 @@ ___
     * <code>git config [--global] user.name '??'</code>
     * <code>git remote add origin URL </code>
     * <code>git push -u origin master</code>
-
 
 # Structure de données
 ___
@@ -55,4 +53,3 @@ ___
 # Fonctions, Classes et Modules
 # Introduction à Numpy
 # Introduction à Pandas
-# Projet Tutoré
