@@ -52,6 +52,7 @@ Utilisation de GitHub ( Versioning )
 		- git push -u origin master ( PUSH )
 
 	- Les commandes GIT ( >1 fois )
+	    - git status ( Vérifier le status du Working Directory ou des modifications actuelles )
 		- git add -A ( ajouter tout le contenu du repertoir courant )
 		- git commit -m "<DESCRIPTION>" ( permet de sauvegarder notre travail dans un WD: Working Directory)
-		- git push -u origin master ( PUSH )
+		- git push origin master ( PUSH )
