@@ -1,6 +1,9 @@
 # Opération
 # Opération arithmétiques
 
+# importer le module
+import math
+
 
 lastname = 'KUASSI'
 firstname = 'ISRAEL'
@@ -60,3 +63,32 @@ if __name__ == '__main__':
     print(f'Le résultat au carré est: {exposant_carre}')
     print(f'Le résultat au cube est: {exposant_cube}')
     print(f'Le résultat a exposant 10 est: {exposant_dix}')
+    print('\n')
+
+    # Opération avec les strings
+    # L'ancienne son contenu sera écrasé
+    # Le résultat: INGENIEUR Software Developer
+    # On peut faire de l'addition entre les chaines de caractères
+    addition = diplome + ' ' + profession
+    print("L'addition de deux strings")
+    print(f'Le résultat est: {addition}')
+    print('\n')
+
+    multiply = diplome * 3
+    print("La multiplication de deux strings")
+    print(f'Le résultat est: {multiply}')
+    print('\n')
+
+    multiply = '*' * 20
+    print("La multiplication de deux strings")
+    print(f'Le résultat est: {multiply}')
+    print('\n')
+
+    # Exposant
+    # https://docs.python.org/3/library/math.html
+    # https://requests.readthedocs.io/en/latest/
+    exposant_carre = math.pow(experience, 2)
+    racine_carre = math.sqrt(9)
+    print('Exposant des nombres:')
+    print(f'Le résultat au carré est: {exposant_carre}')
+    print(f'Le résultat de la racine carré est: {racine_carre}')

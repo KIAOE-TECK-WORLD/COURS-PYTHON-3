@@ -1,0 +1,14 @@
+Un individu qui a un poids et une taille:
+	- Demander à cet utilisateur de renseigner son poids
+	- Demander de renseigner sa taille
+	- Calculer son indice de masse corporelle
+		- POIDS/ (TAILLE **2)
+	- Afficher le résultat à la console
+
+	- Partons du principe que le poids est en Kg
+	- Partons du principe que la taille est en m
+	- Donc le résultat doit être du Kg/m2
+
+	- Convertir en g/m2
+	- Convertir en kg/cm2
+	- Afficher aussi ces deux derniers résulats

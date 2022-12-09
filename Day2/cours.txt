@@ -29,3 +29,14 @@ Il existe deux type de langages
 		- git add -A ( ajouter tout le contenu du repertoir courant )
 		- git commit -m "<DESCRIPTION>" ( permet de sauvegarder notre travail dans un WD: Working Directory)
 		- git push origin master ( PUSH )
+
+	- Activer son environnement virtuel
+	    - cd <PROJET>
+	    - python3 -m virtualenv <NOM_DOSSIER_ENV>
+	    - Sur Windows:
+	    	- cd env/Scripts
+	    	- activate + <ENTER>
+	    - Sur MAC/Linux
+	    	- cd env/bin
+	    	- source activate
+	    - cd ../.. ( Pour revenir à la racine du projet )
