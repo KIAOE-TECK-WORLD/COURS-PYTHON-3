@@ -1,0 +1,25 @@
+1. Ecrivez un code python qui permet de calculer:
+	- La surface d'un cercle
+	- La surface d'un triangle
+	- La surface d'un rectangle
+	- La surface d'un carré
+	- NB: Demander en console à l'utilisateur de fournir les informations dont vous aviez besoin
+
+2. Ecrivez un code python qui permet de calculer:
+	- Le volume d'un cercle
+	- Le volume d'un triangle
+	- Le volume d'un rectangle
+	- Le volume d'un carré
+	- NB: Demander en console à l'utilisateur de fournir les informations dont vous aviez besoin
+
+3. Ecrivez un code python qui permet de calculer:
+	- L'indice de Masse Corporelle
+	- Rechercher sur INTERNET la formule exacte
+	- Ecrivez la formulaire en commentaire dans le code
+	- Appliquer les interprétations via le controle de flux
+		- Le cas de l'obésité
+		- Le cas de la normalité
+		- Le cas de sur excès de poids
+		- NB: Utilisez les différents cas présentés
+		- NB: Lien Google pour vous aider: ( https://www.doctissimo.fr/asp/quizz/visu_form_bmi.asp )
+	- NB: Demander en console à l'utilisateur de fournir les informations dont vous aviez besoin
