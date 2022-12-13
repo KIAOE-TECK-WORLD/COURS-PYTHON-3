@@ -6,10 +6,9 @@
 	- NB: Demander en console à l'utilisateur de fournir les informations dont vous aviez besoin
 
 2. Ecrivez un code python qui permet de calculer:
-	- Le volume d'un cercle
-	- Le volume d'un triangle
-	- Le volume d'un rectangle
-	- Le volume d'un carré
+	- Le volume d'une sphère
+	- Le volume d'un cylindre
+	- Le volume d'un cube
 	- NB: Demander en console à l'utilisateur de fournir les informations dont vous aviez besoin
 
 3. Ecrivez un code python qui permet de calculer:
