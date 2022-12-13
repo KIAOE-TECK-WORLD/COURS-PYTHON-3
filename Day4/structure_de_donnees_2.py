@@ -52,7 +52,7 @@ if __name__ == '__main__':
         },
         'duration': [120, 130, 200]
     }]
-    
+
     # Les variables c'est en minuscule et c'est du CAMEL_CASE
     # Le nom des constantes qui sont en majuscule
     # Le nom des classe Person
@@ -68,32 +68,51 @@ if __name__ == '__main__':
         'zip': '10000'
     }
     Person['sex'] = 'female'
-    
+
     # print(Person)
     # Afficher la valeur a partir d'une clé
     # Evite la levée d'exception
     print(Person.get('surname'))
-    
+
     # Afficher la valeur a partir d'une clé
     # Lève une exception en cas de non existence de la clé
     # print(Person['surname'])
     print('\n')
-    
-    print(Person.get('location'))
-    print(Person.get('location').get('state'))
+
+    print(Person.get('location'))  # fonction get()
+
+    print(type(Person.get('location')))  # type dict
+
+    state = Person \
+        .get('location') \
+        .get('state')
+
+    city = Person \
+        .get('location') \
+        .get('city')
+
+    zip = Person \
+        .get('location') \
+        .get('zip')
+
+    print(state)
+    print(city)
+    print(zip)
+
     print('\n')
-    
+    print(f'Le state est: {state}, la cité est: {city}, le zip code est: {zip}')
+
+    print('\n')
+
     # Afficher la liste des clées du dictionnaire person
     print(Person.keys())
     print(list(Person.keys()))
     print('\n')
-    
+
     # Afficher la liste des valeurs du dictionnaire person
     print(Person.values())
     print(list(Person.values()))
     print('\n')
-    
+
     # Afficher la liste des (keys, valeurs) du dictionnaire person
     print(list(Person.items()))
-    
-    
